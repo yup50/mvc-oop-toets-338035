@@ -2,7 +2,6 @@
 
 <h3><?php echo $data['title']; ?></h3>
 
-<a href="<?= URLROOT; ?>/instructeurs/index">Instructeurs</a> |
 <a href="<?= URLROOT; ?>/Countries/index">Landen van de Wereld</a> |
 
 
