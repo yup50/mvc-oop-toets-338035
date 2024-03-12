@@ -9,9 +9,10 @@
     <thead>
         <tr>
             <th>Naam</th>
-            <th>Hoofdstad</th>
-            <th>Continent</th>
-            <th>Aantal Inwoners</th>
+            <th>Nettowaarde (miljoen)</th>
+            <th>Land</th>
+            <th>Mobiel</th>
+            <th>Leeftijd</th>
         </tr>
     </thead>
     <tbody>
