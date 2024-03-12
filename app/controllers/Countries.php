@@ -17,10 +17,11 @@ class Countries extends BaseController
 
         foreach ($countries as $country) {
             $dataRows .= "<tr>
-                            <td>{$country->Name}</td>
-                            <td>{$country->CapitalCity}</td>
-                            <td>{$country->Continent}</td>
-                            <td>" . number_format($country->Population, 0, ",", ".") . "</td>            
+                            <td>{$country->Naam}</td>
+                            <td>" . number_format($country->NettoWaarde, 0, ",", ".") . "</td>
+                            <td>{$country->Land}</td>
+                            <td>{$country->Mobiel}</td>   
+                            <td>" . number_format($country->Leeftijd, 0, ",", ".") . "</td>         
                         </tr>";
         }
 
